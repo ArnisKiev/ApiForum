@@ -11,6 +11,7 @@ namespace ApiForum.ForumManagers
 {
     public class SubscriberManager
     {
+        private int HHH { get; set; }
         ArticlesManager _articleManager;
         PublisherSubscriberManager _publicherSubscriberManager;
         UserManager<User> _userManager;
